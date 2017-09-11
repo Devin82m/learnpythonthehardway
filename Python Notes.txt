@@ -1,0 +1,35 @@
+Python Notes
+============
+
+Useful Functions
+----------------
+
+    import <module_name>    # Import features into your script  (Ex #13)
+
+    <variabel_name> = raw_input("The prompt message") # Allows you to prompt the user for an answer  (Ex #12)
+
+    from sys import argv # Allows you to use arguements with your script  (Ex #13)
+        script, first, second, third = argv     # List you your arguements 
+        print "The script is called:", script   # Assigning arguements to functions
+        print "Your first variable is:", first  # Same
+
+    open(filename or input)     # Used to open a file
+
+    truncate()      # Truncates a file's size to zero if you like
+        something.trunate() 
+
+    write()     # Writes data to a file
+        something.write(something)
+
+    close()     # Closes a file you've been editing
+        something.close()
+
+Useful Formatting
+-----------------
+
+    \n      # New line (Ex #10)
+
+    \t*     # Tab in once  (Ex #10)
+    """ <blah> """  # Create a list  (Ex #10)
+
+    
